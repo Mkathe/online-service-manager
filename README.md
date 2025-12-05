@@ -14,13 +14,15 @@ Routes
 
 GET "/healthz"
 
-Hubs
+Services
 GET "/services" 
 GET "/services/total-cost"
 POST "/services"
 PUT "/services/:id"
 DELETE "/services/:id"
 
+To open swagger:
+localhost:port/swagger
 ```
 
 Use this command to open this project:
